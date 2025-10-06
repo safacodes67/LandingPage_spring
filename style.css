@@ -1,0 +1,147 @@
+@font-face {
+  font-family: Tshirt;
+  src: url(./GladiatorArenaDemoRegular.ttf);
+}
+
+@font-face {
+  font-family: nav;
+  src: url(./Holtzschue.ttf);
+}
+
+@font-face {
+  font-family: dot;
+  src: url(./Miagara.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(239, 216, 185);
+}
+
+.main .navbar {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 20px;
+}
+
+.nav-left {
+  padding: 30px;
+  margin-left: 1%;
+}
+.nav-left a {
+  text-decoration: none;
+  color: #000;
+  padding: 20px;
+}
+
+#middle {
+  font-family: nav;
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  padding-top: 30px;
+}
+
+.nav-right {
+  padding: 30px;
+  margin-right: 2%;
+}
+.nav-right a {
+  text-decoration: none;
+  color: #000;
+  padding: 20px;
+}
+
+.main #text {
+  font-family: Tshirt;
+  font-weight: 100;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  font-size: 210px;
+  letter-spacing: 10px;
+}
+
+#we{
+  font-family: dot;
+  font-weight: 100;
+  padding-top: 20%;
+  font-size: 220px;
+  color:rgb(127, 71, 71);
+}
+
+.main .content {
+  width: 21%;
+  margin-top: 20%;
+  margin-left: 4%;
+}
+
+.content h2 {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.content p {
+  padding-top: 10px;
+  font-size: 18px;
+}
+
+.main .btm_boder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-left: 38px;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#svg{
+ padding-top: 10px;
+ padding-left: 5px;
+
+}
+
+#btm {
+  color: #000;
+  margin-right: 3%;
+}
+
+.main > img {
+  position: absolute;
+  height: 300px;
+}
+
+#img1 {
+  top: 40%;
+  left: 35%;
+  width: 220px;
+  height: 200px;
+}
+
+#img2 {
+  top: 37%;
+  left: 62%;
+  
+}
+
+#img3 {
+  top: 55%;
+  left: 48%;
+  z-index: 50;
+  width: 220px;
+  height: 250px;
+}
